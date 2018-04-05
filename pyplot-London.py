@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 ax = plt.axes(projection=ccrs.Robinson())
 plt.title('ISS Position <date><time>')
-img=plt.imread('/Users/cgeorge/bm.png')
+img=plt.imread('bm.png')
 ax.imshow(img,origin='upper', transform=ccrs.PlateCarree())
 #ax.gridlines()
 
