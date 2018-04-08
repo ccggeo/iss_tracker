@@ -23,7 +23,6 @@ def getTrackingdata():
 		mapData = (g.raw)
 		country=(mapData['country'])
 		county = g.county
-		print(county)
 	except:
 		country = ''
 		county=''
