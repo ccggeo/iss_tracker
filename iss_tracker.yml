@@ -1,0 +1,11 @@
+name: iss_trackar
+channels:
+  - conda-forge
+
+dependencies:
+  - cartopy
+  - python=2.7
+
+  - pip:
+    - matplotlib==2.0.2
+    - geocoder

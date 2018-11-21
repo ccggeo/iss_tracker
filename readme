@@ -1,0 +1,5 @@
+Plots the current possition of the iss against a map
+
+Install requirements with conda config 
+
+conda env create -f iss_tracker.yml && conda activate iss_trackar
